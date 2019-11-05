@@ -11,9 +11,9 @@
 		<property name="driverClassName"
 			value="com.mysql.jdbc.Driver"></property>
 		<property name="jdbcUrl"
-			value="jdbc:mysql://192.168.1.29:3306/bitdb?serverTimezone=Asia/Seoul&amp;useSSL=false"></property>
+			value="jdbc:mysql://localhost:3306/bitdb?serverTimezone=Asia/Seoul&amp;useSSL=false"></property>
 		<property name="username" value="bit04"></property>
-		<property name="password" value="1234"></property>
+		<property name="password" value="bit04"></property>
 	</bean>
 
 	<!-- HikariCP configuration -->
