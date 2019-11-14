@@ -23,7 +23,7 @@ public class BoardMapperTests {
 	
 	@Test
 	public void testSelectList() {
-		mapper.selectList(10).forEach(log::info);
+		//mapper.selectList(10).forEach(log::info);
 	}
 	
 	@Test
